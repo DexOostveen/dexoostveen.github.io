@@ -21,13 +21,13 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-        ('github','https://github.com/DexOostveen')
+        # ('github','https://github.com/DexOostveen')
         # ('Pelican', 'http://getpelican.com/'),
         #  ('Python.org', 'http://python.org/'),
         #  ('Jinja2', 'http://jinja.pocoo.org/'),
         #  ('You can modify those links in your config file', '#')
          
-         ,)
+         )
 # GITHUB_URL = 'https://github.com/DexOostveen'
 
 # Social widget
@@ -47,4 +47,4 @@ THEME = 'pelican-blueidea'
 DISPLAY_CATEGORIES_ON_SUBMENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
 
-DISPLAY_SEARCH_FORM =True
+DISPLAY_SEARCH_FORM =False
