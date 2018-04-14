@@ -28,6 +28,7 @@ LINKS = (
         #  ('You can modify those links in your config file', '#')
          
          ,)
+GITHUB_URL = 'https://github.com/DexOostveen'
 
 # Social widget
 # SOCIAL = (('You can add links in your config file', '#'),
