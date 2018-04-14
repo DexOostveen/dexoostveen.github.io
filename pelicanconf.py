@@ -28,13 +28,23 @@ LINKS = (
         #  ('You can modify those links in your config file', '#')
          
          ,)
-GITHUB_URL = 'https://github.com/DexOostveen'
+# GITHUB_URL = 'https://github.com/DexOostveen'
 
 # Social widget
-# SOCIAL = (('You can add links in your config file', '#'),
-#           ('Another social link', '#'),)
+SOCIAL = (
+        ('github','https://github.com/DexOostveen')
+        # ('You can add links in your config file', '#'),
+#           ('Another social link', '#')
+       ,)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+
+### pelican-blueid
+DISPLAY_CATEGORIES_ON_SUBMENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
+
+DISPLAY_SEARCH_FORM =True
