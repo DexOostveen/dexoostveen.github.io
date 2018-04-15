@@ -1,3 +1,5 @@
+title:Github
+
 {% if GITHUB_USER %}
     <h1>Projects</h1>
     {% for project in github_projects %}
