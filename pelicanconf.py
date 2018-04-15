@@ -12,6 +12,8 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'English'
 
+PLUGIN = ['pelican_githubprojects',]
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -48,3 +50,7 @@ DISPLAY_CATEGORIES_ON_SUBMENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
 
 DISPLAY_SEARCH_FORM =False
+
+
+#Github
+GITHUB_USER = 'DexOostveen'
